@@ -1,0 +1,53 @@
+ body{
+            color: green;
+            font-family: Verdana, Arial, Geneva, Helvetica;
+            background-color: burlywood;
+            font-size: 12px;
+            margin: 0;
+        }
+      
+        h1,h2{
+            text-decoration: underline;
+            font-size: 150%;
+            text-align: center;
+        }
+          h1{
+            color: pink;
+        }
+        
+        p{
+            
+            font-size: 25px;
+            font-family: Helvetica;
+       }
+         .paragraph{
+            color: red;
+            font-style: 10px;
+            line-height: 1.5em;
+            background-color: #e5e4d7;
+            padding: 10px;
+            border-width: 10px 5px;
+            border-style: solid;
+            border-color: black;
+            margin: 0px 20px;
+            margin-bottom: 20px;
+            background-image: url(Kuva2.png);
+        }
+        
+        .blue{
+            color: blue;
+        }
+         .mainimg{
+            width: 20%;
+            display: block;
+            margin: 0 auto;
+            background-color: silver;
+            padding: 3px;
+            border: 2px solid black;
+        }
+        #kappale4{
+            color: black;
+            padding: 10px;
+            margin: 10px;
+            background-color: beige;
+        }
