@@ -1,0 +1,98 @@
+body{
+   margin: 0 auto;
+   width: 80%;
+   color: #2e1e1e;
+}
+main {
+    background-color:  #e6ccff;
+    display: flex;
+
+}
+header {
+    background: linear-gradient(to right, #800000, #b33c3c);
+    padding: 20px;
+    text-align: center;
+    
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav{
+   background-color: #800000;
+   padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+}
+
+section{
+    width: 70%;
+    padding: 20px;
+    order: 1;
+}
+aside{
+    background-color: antiquewhite;
+    width: 30%;
+    padding: 20px;
+    order: 2;
+}
+footer {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+/*.vasen {
+    width: 70%;
+    padding: 20px;
+}
+.oikea {
+    width: 30%;
+    padding: 20px;
+}*/
+hr {
+    border: 0;
+    height: 1px;
+    background-color: gray;
+    margin: 20px 0;
+}
+.opetus{
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+    max-width: 90%;
+}
+.kuvat{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.kortti {
+    background-color: #ecbfbf;
+    border: 2px solid #a36eb7;
+    border-radius: 10px;
+    padding: 20px 20px 5px 10px;
+    margin: 20px 0;
+    margin-left: 30px;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    width: 300px;
+    height: 90px;
+    object-fit: fill;
+   
+}
