@@ -1,0 +1,51 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    padding: 20px;
+    width: 40%;
+    margin: 0;
+}
+
+table{
+    width: 500px;
+    border: 2px solid gray;
+    background-color:black;
+    margin: 20 auto;
+    height: 500px;
+}
+
+td {
+    padding: 10px 12px;
+    color: #fff;
+    border: none; 
+}
+
+.otsikko {
+    text-align: left;
+    font-size: 15px;
+    background-color: chocolate;
+    color: white;
+}
+
+.label{
+    width: 200px;
+    text-align: right;
+    font-weight: 600;
+    padding-right: 16px;
+    color: #f1d45a;
+}
+
+.keskella {
+    text-align: center;
+    background-color: chocolate;
+    padding: 14px 0;
+}
+
+.ok {
+    background-color: #2ea043;
+    color: white;
+}
+
+.cancel {
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekisteröintilomake</title>
+    <link rel="stylesheet" href="tyyli_rekisteröinti.css">
+</head>
+<body>
+    <form>
+    <table>
+        <tr>
+            <td colspan="2" class="otsikko">Rekisteröintilomake</td>
+        </tr>
+        <tr>
+            <td>Anna nimi:</td>
+            <td><input type="text" name="enimi"></td>
+        </tr>
+        <tr>
+            <td>Anna salasana:</td>
+            <td><input type="password" name="ssana"></td>
+        </tr>
+        <tr>
+            <td>Anna osoite:</td>
+            <td> <textarea name="osoite" rows="3" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>Valitse peli:</td>
+            <td>
+                 <input type="checkbox" name="peli" value="Jääkiekko">Jääkiekko <br>
+        <input type="checkbox" name="peli" value="Jalkapallo">Jalkapallo <br>
+        <input type="checkbox" name="peli" value="Sulkapallo">Sulkapallo <br>
+        <input type="checkbox" name="peli" value="Squash">Squash <br>
+        <input type="checkbox" name="peli" value="Lentopallo">Lentopallo <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Sukupuoli</td>
+            <td>
+                <input type="radio" name="sukupuoli" value="Mies">Mies 
+                <input type="radio" name="sukupuoli" value="Nainen">Nainen
+            </td>
+        </tr>
+        <tr>
+            <td>Ikä:</td>
+            <td>
+                <select name="ika" id="ika">
+                    <option value="">-- Valitse ikäsi --</option>
+                    <option>&;18</option>
+                    <option>18-25</option>
+                    <option>26-40</option>
+                    <option>41+</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Valitse kuva:</td>
+            <td><input type="file" name="kuva" value="valitse kuva"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="keskella">
+            <input type="button" value="Napauta minua">
+            <input type="reset" value="Resetoi">
+            <input type="submit" value="Lähetä">
+        </td>
+        </tr>
+    </table>
+   </form>
+    
+</body>
+</html>

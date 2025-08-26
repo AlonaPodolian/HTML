@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="tyyli_SignUp.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2" class="otsikko">Sign Up</td>
+            </tr>
+            <tr>
+                <td class="label">First name</td>
+                <td><input type="text" name="first_name" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td class="label">Last Name</td>
+                <td><input type="text" name="last_name" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td class="label">Date of Birth</td>
+                  <td>
+                    <select name="day" id="day" required>
+                        <option value="Date" disabled selected>Date</option>
+                
+                    </select>
+                    <select name="month" id="month">
+                        <option value="Month">Month</option>
+                    </select>
+                    <input type="number" name="year" placeholder="Year" min="1900" max="2025">
+                </td>
+            </tr>
+            <tr>
+      <td class="label"></td>
+      <td>
+        <label><input type="radio" name="male" id="male"> Male</label>
+        <label><input type="radio" name="female" value="female"> Female</label>
+        </td>
+            </tr>
+
+    <tr>
+      <td class="label">Country</td>
+      <td>
+        <select name="country" required>
+          <option value="" disabled selected>Country</option>
+          <option>Finland</option>
+          <option>Ukraine</option>
+          <option>Sweden</option>
+          <option>Estonia</option>
+          <option>Other</option>
+        </select>
+      </td>
+    </tr>
+    
+    <tr>
+      <td class="label">E-mail</td>
+      <td><input type="email" name="email" placeholder="Enter E-mail" required></td>
+    </tr>
+
+    <tr>
+      <td class="label">Phone</td>
+      <td><input type="tel" name="phone" placeholder="Enter Phone"></td>
+    </tr>
+
+    <tr>
+      <td class="label">Password</td>
+      <td><input type="password" name="password"  minlength="6" required></td>
+    </tr>
+
+    <tr>
+      <td class="label">Confirm Password</td>
+      <td><input type="password" name="confirm" minlength="6" required></td>
+    </tr>
+
+    <tr>
+      <td class="label"></td>
+      <td><label><input type="checkbox" name="agree" required> I Agree to the Terms of use</label></td>  
+    </tr>
+
+    <tr>
+      <td colspan="2" class="keskella">
+        <input type="submit" value="Submit" class="ok">
+        <input type="reset" value="Cancel" class="cancel">
+      </td>
+    </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
