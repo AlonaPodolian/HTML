@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 40px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 18px;
+  padding: 6px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin-left: 180px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
