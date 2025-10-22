@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Story+Script&display=swap');
+h2{
+     font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+}
+
+body {
+    background-color: bisque;
+}
+
+.nimi{
+    background-color: yellow;
+}

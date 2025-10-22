@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohjelmointikokemus</title>
+</head>
+<body bgcolor="#FFC0CB">
+    <h1>Ohjelmointikokemus</h1>
+    <img src="ohjelmointikielet.jpg" alt="kuva" width="200">
+
+    <form>
+        <p><b>Nimi:</b><input type="text" name="nimi" required></p>
+
+        <p><b>Ikä:</b><input type="number" name="ika" required></p>
+
+        <p><b>Osoite:</b><input type="text" name="osoite" required></p>
+
+        <p>Sähköpostiosoite: <input type="email" name="sahkoposti"></p>
+
+        <p>Puhelinnumero: <input type="tel" name="puhelin"></p>
+
+        <p>Sukupuoli: 
+            <input type="radio" name="sukupuoli" value="mies">Mies
+            <input type="radio" name="sukupuoli" value="nainen">Nainen
+            <input type="radio" name="sukupuoli" value="muu">Muu</p>
+
+            <p>Koulutus(ilmoita myös valmistumisvuodet): <br>
+            <textarea name="koulutus" id="koulutus"></textarea></p>
+
+            <p>Olen kuullut sauraavista ohjelmointikielistä aikaisemmin: <br>
+        <input type="checkbox" name="kielet" value="java">Java / C#<br>
+        <input type="checkbox" name="kielet" value="python">Python <br>
+        <input type="checkbox" name="kielet" value="c">C / C++ <br>
+        <input type="checkbox" name="kielet" value="perl">Perl <br>
+        <input type="checkbox" name="kielet" value="pascal">Pascal / Delphi</p>
+
+        <p>Mieluisin ohjelmointikielistä minulle on: <br>
+        <input type="radio" name="mieluisin" value="java">Java / C# <br>
+        <input type="radio" name="mieluisin" value="python">Python <br>
+        <input type="radio" name="mieluisin" value="c"> C / C++ <br>
+        <input type="radio" name="mieluisin" value="perl">Perl <br>
+        <input type="radio" name="mieluisin" value="pascal">Pascal / Delphi</p>
+
+        <p>Ohjelmointikokemukseni seuraavilla kielillä (1-5): <br>
+        Java / C#: <input type="number" min="1" max="5"><br>
+        Python: <input type="number" min="1" max="5"><br>
+        C / C++: <input type="number" min="1" max="5"><br>
+        Perl: <input type="number" min="1" max="5"><br>
+        Pascal / Delphi: <input type="number" min="1" max="5"></p>
+
+        <p>Muuta kerrottavaa aikaisemmasta ohjelmointikokemuksestani: <br>
+        <textarea name="muuta" id="muuta"></textarea></p>
+
+        <p><input type="submit" value="Lähetä" style="background-color: deeppink; color: aliceblue;"></p>
+    </form>
+</body>
+</html>

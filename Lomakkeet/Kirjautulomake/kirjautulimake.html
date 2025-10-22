@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirjautulomake</title>
+    <link rel="stylesheet" href="tyyli_K.css">
+</head>
+<body>
+    
+    <form>
+        <h2>Kirjautulomake</h2>
+        <p><b>Nimi:</b><input class="nimi" type="text" name="nimi" required></p>
+
+        <p><b>Salasana:</b><input type="ssana" name="ssana"></p>
+
+        <input type="hidden" VALUE="Tätä tietoa ei näytetä käyttäjjlle "><br>
+       <p><b> Millainen koneen käyttäjä olet?</b><br>
+    <input type="radio" name="kayttaja" value="himopelaaja">himopelaaja<br>
+<input type="radio" name="kayttaja" value="käytän opiskeluun">käytän opiskeluun <br>
+<input type="radio" name="kayttaja" value="en käytä konetta">en käytä</p>
+
+<p><b>Mitä mieltä olet sivustani tähän asti</b><br>
+<input type="checkbox" name="mieli" value="todella hienot">Todella hienot <br>
+<input type="checkbox" name="mieli" value="Ammattimaisesti tehty">Ammattimaisesti tehty <br>
+<input type="checkbox" name="mieli" value="Ostan sinlta">Ostan sinlta!</p>
+
+<p><b>Mitä on lempiaineesi Keudassa</b><br></p>
+<select name="ammatti" id="ammatti" required>
+ <option value="ammattiaineet" disabled selected>ammattiaineet</option>
+<option>Ohjelmoija</option>
+<option>Tietokoneasentaja</option>
+<option>IT-tukihenkilö</option>
+<option>UX/UI suunnittelija</option>
+</select>
+ <p><b>Kerro, miten kehittäisit sivujani</b><br></p>
+<textarea name="text" id="text" cols="30" rows="5"></textarea>
+
+<p><input type="submit" value="paina minua"></p>
+<p><input type="submit" value="Lähetä"></p>
+
+
+    </form>
+    
+</body>
+</html>

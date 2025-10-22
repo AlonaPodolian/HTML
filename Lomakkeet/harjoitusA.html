@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lomake</title>
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+    <form>
+        <h1>Lomake</h1>
+        <label for="enimi">Etunimi</label>
+        <input type="text" name="enimi" id="enimi"><br>
+        <label for="snimi">Sukunimi</label>
+        <input type="text" name="snimi" id="snimi"><br>
+        <label for="ktunnus">Käyttäjätunnus</label>
+        <input type="text" name="ktunnus" id="ktunnus"><br>
+        <label for="ssana">Salasana</label>
+        <input type="password" name="ssana" id="ssana"><br>
+        <label for="spuoli">Sukupuoli</label>
+        <input type="radio" name="spuoli" id="spuoli-m">Mies 
+        <input type="radio" name="spuoli" id="spuoli-n">Nainen<br>
+        <label for="palaute">Palaute</label>
+        <textarea name="palaute" id="palaute" cols="30" rows="10"></textarea><br>
+        
+        <label for="jtaso">Jäsenyystaso</label>
+        <select>
+        <option value="">-- Valitse yksi --</option>
+        <option value="admin">Admin</option>
+        <option value="kayttaja">Käyttäjä</option>
+        <option value="testi">Testi</option>
+        </select><br>
+        <label for="oalueet">Osaamisalueet</label>
+        <input type="checkbox" name="PHP" id="php">PHP
+        <input type="checkbox" name="HTML" id="HTML">HTML 
+        <input type="checkbox" name="CSS" id="CSS">CSS <br>
+        <input type="submit" value="Lähetä" ><input type="reset" value="Tyhjennä">
+        
+    </form>
+</body>
+</html>
