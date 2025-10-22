@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+h1{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Story+Script&display=swap');
+h2{
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body {
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: rgb(83, 115, 220);
+}
+
+header {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 20px;
+    background: #4a90e2;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: rgb(157, 222, 250);
+    margin: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  
+}
+
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-left {
+  width: 45%;
+  flex: 1;
+}
+
+.footer-right {
+  width: 45%;
+  float: 1;
+  text-align: right;
+}
+
+.footer-left h3, .footer-right h3 {
+  margin-top: 0;
+  color: #f0f0f0;
+}
+
+footer a {
+  color: #4aa3ff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-photos {
+  margin-top: 10px 0;
+  text-align: center;
+}
+.footer-photos img {
+  width: 100px;
+  margin-right: 0 5px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+*{ box-sizing: border-box;}
