@@ -1,0 +1,91 @@
+body {
+    background-color: lightblue;
+}
+
+ p {
+    color: red;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 10px 10px 30px blue;
+    margin-top: 150px;
+}
+
+div {
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px white;
+    padding: 20px;
+    margin: auto;
+    width: 300px;
+    display: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    animation: move 2s infinite alternate;
+    transform: rotate(45deg);
+}
+
+div:hover {
+    transform: scale(1.2);
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.containen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+@keyframes move {
+    0% { left: 0;}
+    100% {left: 100px;}
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.element {
+    position: absolute;
+    z-index: 10;
+}
